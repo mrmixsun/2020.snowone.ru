@@ -1,0 +1,186 @@
+ErrorDocument 403 /page7477382.html
+ErrorDocument 404 /page7477382.html
+
+DirectoryIndex page7257756.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Scheme} =http
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^speakers/artamonov$ page8577792.html [NC]
+RewriteRule ^speakers/artamonov/$ page8577792.html [NC]
+
+RewriteRule ^privacy_policy$ page7071804.html [NC]
+RewriteRule ^privacy_policy/$ page7071804.html [NC]
+
+RewriteRule ^ru$ page7257756.html [NC]
+RewriteRule ^ru/$ page7257756.html [NC]
+
+RewriteRule ^old$ page6992376.html [NC]
+RewriteRule ^old/$ page6992376.html [NC]
+
+RewriteRule ^en$ page7471891.html [NC]
+RewriteRule ^en/$ page7471891.html [NC]
+
+RewriteRule ^code_of_conduct$ page7472688.html [NC]
+RewriteRule ^code_of_conduct/$ page7472688.html [NC]
+
+RewriteRule ^en/speakers/artamonov$ page8577981.html [NC]
+RewriteRule ^en/speakers/artamonov/$ page8577981.html [NC]
+
+RewriteRule ^en/code_of_conduct$ page7472968.html [NC]
+RewriteRule ^en/code_of_conduct/$ page7472968.html [NC]
+
+RewriteRule ^menu$ page8500684.html [NC]
+RewriteRule ^menu/$ page8500684.html [NC]
+
+RewriteRule ^speakers/groschke$ page8672031.html [NC]
+RewriteRule ^speakers/groschke/$ page8672031.html [NC]
+
+RewriteRule ^payment_success$ page7798829.html [NC]
+RewriteRule ^payment_success/$ page7798829.html [NC]
+
+RewriteRule ^en/speakers/groschke$ page8672144.html [NC]
+RewriteRule ^en/speakers/groschke/$ page8672144.html [NC]
+
+RewriteRule ^test$ page8247241.html [NC]
+RewriteRule ^test/$ page8247241.html [NC]
+
+RewriteRule ^speakers/bulenkov$ page8672232.html [NC]
+RewriteRule ^speakers/bulenkov/$ page8672232.html [NC]
+
+RewriteRule ^en/speakers/bulenkov$ page8672294.html [NC]
+RewriteRule ^en/speakers/bulenkov/$ page8672294.html [NC]
+
+RewriteRule ^_404$ page7477382.html [NC]
+RewriteRule ^_404/$ page7477382.html [NC]
+
+RewriteRule ^sale_test$ page7534248.html [NC]
+RewriteRule ^sale_test/$ page7534248.html [NC]
+
+RewriteRule ^speakers/kuksenko$ page8765559.html [NC]
+RewriteRule ^speakers/kuksenko/$ page8765559.html [NC]
+
+RewriteRule ^oferta$ page7716042.html [NC]
+RewriteRule ^oferta/$ page7716042.html [NC]
+
+RewriteRule ^user_agreement$ page7731483.html [NC]
+RewriteRule ^user_agreement/$ page7731483.html [NC]
+
+RewriteRule ^en/speakers/kuksenko$ page8765592.html [NC]
+RewriteRule ^en/speakers/kuksenko/$ page8765592.html [NC]
+
+RewriteRule ^speakers/egorov$ page8952173.html [NC]
+RewriteRule ^speakers/egorov/$ page8952173.html [NC]
+
+RewriteRule ^en/speakers/egorov$ page8952311.html [NC]
+RewriteRule ^en/speakers/egorov/$ page8952311.html [NC]
+
+RewriteRule ^speakers/kogun$ page8965934.html [NC]
+RewriteRule ^speakers/kogun/$ page8965934.html [NC]
+
+RewriteRule ^faq$ page7829682.html [NC]
+RewriteRule ^faq/$ page7829682.html [NC]
+
+RewriteRule ^en/speakers/kogun$ page8969198.html [NC]
+RewriteRule ^en/speakers/kogun/$ page8969198.html [NC]
+
+RewriteRule ^speakers/anastasiev$ page8966260.html [NC]
+RewriteRule ^speakers/anastasiev/$ page8966260.html [NC]
+
+RewriteRule ^en/speakers/anastasiev$ page8969271.html [NC]
+RewriteRule ^en/speakers/anastasiev/$ page8969271.html [NC]
+
+RewriteRule ^speakers/keks$ page8966152.html [NC]
+RewriteRule ^speakers/keks/$ page8966152.html [NC]
+
+RewriteRule ^en/speakers/keks$ page8969463.html [NC]
+RewriteRule ^en/speakers/keks/$ page8969463.html [NC]
+
+RewriteRule ^speakers/ivanov$ page9051425.html [NC]
+RewriteRule ^speakers/ivanov/$ page9051425.html [NC]
+
+RewriteRule ^en/speakers/ivanov$ page9162197.html [NC]
+RewriteRule ^en/speakers/ivanov/$ page9162197.html [NC]
+
+RewriteRule ^partners/sidenis$ page8705076.html [NC]
+RewriteRule ^partners/sidenis/$ page8705076.html [NC]
+
+RewriteRule ^speakers/daschner$ page9051522.html [NC]
+RewriteRule ^speakers/daschner/$ page9051522.html [NC]
+
+RewriteRule ^partners/semrush$ page8705816.html [NC]
+RewriteRule ^partners/semrush/$ page8705816.html [NC]
+
+RewriteRule ^en/speakers/daschner$ page9142496.html [NC]
+RewriteRule ^en/speakers/daschner/$ page9142496.html [NC]
+
+RewriteRule ^speakers/grzesik$ page9054823.html [NC]
+RewriteRule ^speakers/grzesik/$ page9054823.html [NC]
+
+RewriteRule ^en/speakers/grzesik$ page9103503.html [NC]
+RewriteRule ^en/speakers/grzesik/$ page9103503.html [NC]
+
+RewriteRule ^speakers/finkelstein$ page9055757.html [NC]
+RewriteRule ^speakers/finkelstein/$ page9055757.html [NC]
+
+RewriteRule ^partners/ifellow$ page8766001.html [NC]
+RewriteRule ^partners/ifellow/$ page8766001.html [NC]
+
+RewriteRule ^partners/wrike$ page8766595.html [NC]
+RewriteRule ^partners/wrike/$ page8766595.html [NC]
+
+RewriteRule ^en/speakers/finkelshtein$ page9161863.html [NC]
+RewriteRule ^en/speakers/finkelshtein/$ page9161863.html [NC]
+
+RewriteRule ^en/speakers/dokuka$ page9162070.html [NC]
+RewriteRule ^en/speakers/dokuka/$ page9162070.html [NC]
+
+RewriteRule ^partners/jetbrains$ page8781459.html [NC]
+RewriteRule ^partners/jetbrains/$ page8781459.html [NC]
+
+RewriteRule ^speakers/dokuka$ page9195416.html [NC]
+RewriteRule ^speakers/dokuka/$ page9195416.html [NC]
+
+RewriteRule ^vote_for_speakers$ page9196282.html [NC]
+RewriteRule ^vote_for_speakers/$ page9196282.html [NC]
+
+RewriteRule ^student_support$ page8949877.html [NC]
+RewriteRule ^student_support/$ page8949877.html [NC]
+
+RewriteRule ^iwontgo$ page9216229.html [NC]
+RewriteRule ^iwontgo/$ page9216229.html [NC]
+
+RewriteRule ^transfer$ page9547212.html [NC]
+RewriteRule ^transfer/$ page9547212.html [NC]
+
+RewriteRule ^partners/cdek$ page8952901.html [NC]
+RewriteRule ^partners/cdek/$ page8952901.html [NC]
+
+RewriteRule ^partners/trueengineering$ page8998331.html [NC]
+RewriteRule ^partners/trueengineering/$ page8998331.html [NC]
+
+RewriteRule ^program_test$ page9294292.html [NC]
+RewriteRule ^program_test/$ page9294292.html [NC]
+
+RewriteRule ^partners/s7it$ page9312877.html [NC]
+RewriteRule ^partners/s7it/$ page9312877.html [NC]
+
+RewriteRule ^partners/revolut$ page9316360.html [NC]
+RewriteRule ^partners/revolut/$ page9316360.html [NC]
+
+RewriteRule ^partners/xdsoft$ page9316521.html [NC]
+RewriteRule ^partners/xdsoft/$ page9316521.html [NC]
+
+RewriteRule ^partners/huawei$ page9492727.html [NC]
+RewriteRule ^partners/huawei/$ page9492727.html [NC]
+
+RewriteRule ^deutsche_bank$ page9550837.html [NC]
+RewriteRule ^deutsche_bank/$ page9550837.html [NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild3664-6332-4062-a232-373366383637/favicon_1.ico [R=302,L]
+

@@ -1,0 +1,12 @@
+User-Agent: *
+Disallow: /page7477382.html
+Disallow: /_404
+Disallow: /page7731528.html
+Disallow: /tilda/form*
+Disallow: /tilda/rec*
+Disallow: /tilda/click*
+Disallow: /tilda/scroll*
+Disallow: /tilda/popup*
+Disallow:
+Sitemap: https://snowone.ru/sitemap.xml
+Host: https://snowone.ru
